@@ -4,10 +4,11 @@
   "description": "Recipe search and cooking web application",
   "homepage": "https://MartaSch.github.io/Yummy_app",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MartaSch/Yummy_app.git"
