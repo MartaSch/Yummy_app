@@ -1,7 +1,7 @@
 {
-  "name": "Yummy_app",
+  "name": "yummy-app",
   "version": "2.0.0",
-  "description": "",
+  "description": "Recipe search and cooking web application",
   "homepage": "https://MartaSch.github.io/Yummy_app",
   "scripts": {
   "dev": "vite",
@@ -21,7 +21,6 @@
   "dependencies": {
     "modern-normalize": "^1.1.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
     "sass": "^1.101.0",
     "vite": "^8.1.2"
