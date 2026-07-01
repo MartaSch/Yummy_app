@@ -4,9 +4,10 @@
   "description": "",
   "homepage": "https://MartaSch.github.io/Yummy_app",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Yummy_app/"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MartaSch/Yummy_app.git"
@@ -20,11 +21,9 @@
   "dependencies": {
     "modern-normalize": "^1.1.0"
   },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
-  },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+    "sass": "^1.101.0",
+    "vite": "^8.1.2"
+  }
 }
